@@ -1,0 +1,10 @@
+glcontext==3.0.0
+moderngl==5.12.0
+multipledispatch==1.0.0
+numpy==2.3.4
+PyOpenGL==3.1.10
+PyOpenGL-accelerate==3.1.10
+PyQt6==6.10.0
+PyQt6-Qt6==6.10.0
+PyQt6_sip==13.10.2
+pyrr==0.10.3
