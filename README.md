@@ -21,9 +21,18 @@ Each subcube is colored according to its **local entropy**, using a blue–red s
 ## ⚙️ Requirements
 
 This project uses **Python 3.10+** and the following libraries:
+- PyQt6
+- PyOpenGL
+- math
+- sys
+- random
+
+---
+
+## Installing requirements:
 
 ```bash
-pip install PyQt6 PyOpenGL numpy
+pip install PyQt6 PyOpenGL
 ```
 
 Optionally, you can use a virtual environment to keep dependencies clean:
@@ -61,7 +70,7 @@ S = -k_B \sum_i p_i \ln(p_i)
 
 Where:
 - \(p_i\) = fraction of total particles inside subcube *i*
-- \(k_B\) = Boltzmann constant (set to 1 for simplicity)
+- \(k_B\) = Boltzmann constant 
 
 Interpretation:
 - 🔵 **Low S:** predictable arrangement (particles clustered or missing)
@@ -94,11 +103,7 @@ This visually demonstrates the **Second Law of Thermodynamics**:
 
 ## 🖼️ Visual Example (to add later)
 
-
-Or even record a short GIF with:
-```bash
-peek entropy_demo.gif
-```
+![Entropy Cube Simulation](video_example/entropy_video.gif)
 
 ---
 
